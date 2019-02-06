@@ -1,0 +1,16 @@
+[[constraint]]
+  branch = "master"
+  source = "github.com/machine-drivers/machine"
+  name = "github.com/docker/machine"
+
+[[constraint]]
+  name = "github.com/Azure/azure-sdk-for-go"
+  version = "24.1.0"
+
+[[constraint]]
+  name = "github.com/Azure/go-autorest"
+  version = "11.2.7"
+
+[prune]
+  go-tests = true
+  unused-packages = true
